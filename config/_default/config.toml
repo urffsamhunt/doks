@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://fossdesk.tech"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -6,7 +6,8 @@ enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
 paginate = 7
-rssLimit = 10
+rssLimit = 20
+disqusShortname = "fossdesk"
 
 # Multilingual
 defaultContentLanguage = "en"
@@ -63,7 +64,7 @@ rel  = "sitemap"
 
 [permalinks]
   blog = "/blog/:title/"
-# docs = "/docs/1.0/:sections[1:]/:title/"
+  # docs = "/docs/1.0/:sections[1:]/:title/"
 
 [minify.tdewolff.html]
   keepWhitespace = false

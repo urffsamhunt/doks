@@ -1,28 +1,73 @@
 {{ define "main" }}
-	<div class="row flex-xl-nowrap">
-		<div class="col-lg-5 col-xl-4 docs-sidebar{{ if ne .Site.Params.options.navbarSticky true }} docs-sidebar-top{{ end }} d-none d-lg-block">
-			<nav {{ if eq .Site.Params.menu.section.collapsibleSidebar false }}id="sidebar-default" {{ end }}class="docs-links" aria-label="Main navigation">
-				{{ partial "sidebar/docs-menu.html" . }}
-			</nav>
-		</div>
-		{{ if ne .Params.toc false -}}
-		<nav class="docs-toc{{ if ne .Site.Params.options.navbarSticky true }} docs-toc-top{{ end }} d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
-			{{ partial "sidebar/docs-toc.html" . }}
+
+<div class="row flex-xl-nowrap">
+	<div
+		class="col-xl-6 col-xl-6 docs-sidebar{{ if ne .Site.Params.options.navbarSticky true }} docs-sidebar-top{{ end }} d-none d-lg-block">
+		<nav {{ if eq .Site.Params.menu.section.collapsibleSidebar false }}id="sidebar-default" {{ end
+			}}class="docs-links" aria-label="Main navigation">
+			{{ partial "sidebar/docs-menu.html" . }}
 		</nav>
-		{{ end -}}
-		{{ if .Params.toc -}}
-		<main class="docs-content col-lg-11 col-xl{{ if eq .Site.Params.options.fullWidth false }}-9{{ end }}">
+	</div>
+	{{ if ne .Params.toc false -}}
+	<nav class="docs-toc{{ if ne .Site.Params.options.navbarSticky true }} docs-toc-top{{ end }} d-none d-xl-block col-xl-4"
+		aria-label="Secondary navigation">
+		{{ partial "sidebar/docs-toc.html" . }}
+		<!-- Sidebar Ads :) -->
+
+		<!-- Feed -->
+		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+			data-ad-format="fluid" data-ad-client="ca-pub-7715668787474312" data-ad-slot="4971497094"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+			data-ad-format="fluid" data-ad-client="ca-pub-7715668787474312" data-ad-slot="4971497094"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+			data-ad-format="fluid" data-ad-client="ca-pub-7715668787474312" data-ad-slot="4971497094"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+			data-ad-format="fluid" data-ad-client="ca-pub-7715668787474312" data-ad-slot="4971497094"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+			data-ad-format="fluid" data-ad-client="ca-pub-7715668787474312" data-ad-slot="4971497094"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+			data-ad-format="fluid" data-ad-client="ca-pub-7715668787474312" data-ad-slot="4971497094"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+			data-ad-format="fluid" data-ad-client="ca-pub-7715668787474312" data-ad-slot="4971497094"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+
+
+
+	</nav>
+	{{ end -}}
+	{{ if .Params.toc -}}
+	<main class="docs-content col-lg-11 col-xl{{ if eq .Site.Params.options.fullWidth true }}-9{{ end }}">
 		{{ else -}}
 		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
-		{{ end -}}
+			{{ end -}}
 			{{ if .Site.Params.options.breadCrumb -}}
-				<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb">
-						{{ partial "main/breadcrumb" . -}}
-						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-					</ol>
-				</nav>
+			<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					{{ partial "main/breadcrumb" . -}}
+					<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+				</ol>
+			</nav>
 			{{ end }}
 			<h1>{{ .Title }}</h1>
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
@@ -31,15 +76,50 @@
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
 			{{ end -}}
+
+
+			<script async
+				src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7715668787474312"
+				crossorigin="anonymous"></script>
+			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7715668787474312"
+				data-ad-slot="1560067404" data-ad-format="auto" data-full-width-responsive="true"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+			<!-- /22920533010/nativefeedcode -->
+			<div id='div-gpt-ad-1683644924989-0'>
+				<script>
+					googletag.cmd.push(function () { googletag.display('div-gpt-ad-1683644924989-0'); });
+				</script>
+			</div>
+
+
+			{{ partial "content/request.html" }}
+
+
 			{{ .Content }}
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				{{ if .Site.Params.lastMod -}}
-					{{ partial "main/last-modified.html" . }}
+				{{ partial "main/last-modified.html" . }}
 				{{ end -}}
 				{{ if .Site.Params.editPage -}}
-					{{ partial "main/edit-page.html" . }}
+				{{ partial "main/edit-page.html" . }}
 				{{ end -}}
 			</div>
+			<br>
+			<script async
+				src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7715668787474312"
+				crossorigin="anonymous"></script>
+			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7715668787474312"
+				data-ad-slot="1560067404" data-ad-format="auto" data-full-width-responsive="true"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			<br>
+
+			{{ partial "content/recom.html" .}}
+
 			{{ partial "main/docs-navigation.html" . }}
 			<!--
 			{{ if not .Site.Params.options.collapsibleSidebar -}}
@@ -48,6 +128,21 @@
 				<div class="my-n3"></div>
 			{{ end -}}
 			-->
+			<br>
+			<br>
+			<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+			<script
+				type='text/javascript'>kofiwidget2.init('Support Us on Ko-fi', '#29abe0', 'L3L6L287L'); kofiwidget2.draw();</script>
+				
+			<a href="https://www.paypal.me/leteps/10" target="_blank"
+				style="display: inline-block; background-color: #0070ba; color: #fff; font-size: 14px; font-weight: bold; text-align: center; text-decoration: none; padding: 10px 20px; border-radius: 25px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+				Donate with PayPal
+			</a>
+			<br>
+			<br>
+
+			{{ partial "main/comments.html" .}}
 		</main>
-	</div>
+
+</div>
 {{ end }}

@@ -57,7 +57,7 @@ $navbar-light-toggler-icon-bg: none;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-// $enable-responsive-font-sizes: true;
+//$enable-responsive-font-sizes: true;
 
 // Body
 //
@@ -82,7 +82,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1240px,
-  xxl: 1320px
+  xxl: 1500px
 );
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -92,7 +92,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                16;
-$grid-gutter-width:           48px;
+$grid-gutter-width:           50px;
 $grid-row-columns:            6;
 
 // Components
@@ -111,8 +111,8 @@ $font-family-monospace:       sfmono-regular, menlo, monaco, consolas, "Liberati
 $font-family-base:            $font-family-sans-serif;
 // stylelint-enable value-keyword-case
 
-$font-size-base:              1rem; // Assumes the browser default, typically `16px`
-$font-size-xl:                $font-size-base * 1.375;
+$font-size-base:              1.20rem; // Assumes the browser default, typically `16px`
+$font-size-xl:                $font-size-base * 1.340;
 $font-size-lg:                $font-size-base * 1.25;
 $font-size-md:                $font-size-base * 1.125;
 $font-size-sm:                $font-size-base * 0.875;
@@ -170,7 +170,7 @@ $dropdown-config: (
   layout-alignment: align,
   background-color: $white,
   border-radius: 4,
-  border-width: 1,
+  border-width: 2,
   border-color: $gray-200,
   box-shadow: none,
   branding-position: bottom,

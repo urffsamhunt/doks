@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "FOSSDesk TL"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Web and Light Novels"
+description = "We are a group of translators working on Web and Light novels"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -12,7 +12,7 @@ description = "Doks is a Hugo theme for building secure, fast, and SEO-ready doc
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
+domainTLD = "fossdesk.tech"
 titleHome = "Doks Theme"
 
 ## Twitter Cards
@@ -65,16 +65,16 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Powered by Ads and Free Time XP"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2023-FOSSDesk"
 
 # Alert
-alert = false
+alert = true
 alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+alertText = "We are volunteering for translations. Please consider supporting us by disabling your Ad-Blocker. In case you want to support, donate <a href=\"https://ko-fi.com/L3L6L287L\">here</a>"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
@@ -105,7 +105,7 @@ lastMod = false
   docsVersioning = false
   fullWidth = false
   navbarSticky = true
-  toTopButton = false
+  toTopButton = true
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
 
 [menu]

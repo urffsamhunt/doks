@@ -46,7 +46,7 @@ body.docs {
 
 @include media-breakpoint-up(md) {
   body {
-    font-size: $font-size-md;
+    font-size: $font-size-xl;
 
     /*
     padding-top: 4rem !important;
@@ -264,7 +264,7 @@ body {
 }
 
 .katex {
-  font-size: $font-size-md;
+  font-size: $font-size-xl;
 }
 
 .card-bar {

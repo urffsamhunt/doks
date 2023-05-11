@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "2df4c6c9099383a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2fefdb41b909410",
+        "type": "split",
+        "children": [
+          {
+            "id": "d58ea66fd74b357c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ac990507fcff5ad0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "failurealchemist/Chapter 6/Chapter 64.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "366a98018c96206a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "701466c017f143c0",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/home/sameer/TLSite/my-doks-site/content/en/docs",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/nu",
+                        "name": "Nu",
+                        "platforms": {
+                          "linux": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {},
+                        "type": "integrated",
+                        "useWin32Conhost": false
+                      },
+                      "serial": {
+                        "columns": 170,
+                        "data": "\u001b[32m     __  ,\r\n .--()°'.' \u001b[0mWelcome to \u001b[32mNushell\u001b[0m,\r\n\u001b[32m'|, . ,'   \u001b[0mbased on the \u001b[32mnu\u001b[0m language,\r\n\u001b[32m !_-(_\\    \u001b[0mwhere all data is structured!\r\n\r\nPlease join our \u001b[35mDiscord\u001b[0m community at \u001b[35mhttps://discord.gg/NtAbbGn\r\n\u001b[0mOur \u001b[32;1mGitHub\u001b[0m repository is at \u001b[32;1mhttps://github.com/nushell/nushell\r\n\u001b[0mOur \u001b[32mDocumentation\u001b[0m is located at \u001b[32mhttp://nushell.sh\r\n\u001b[36mTweet\u001b[0m us at \u001b[36;1m@nu_shell\r\n\r\n\u001b[0mIt's been this long since \u001b[32mNushell\u001b[0m's first commit:\r\n4yr 1day 16hr 48min 14sec 853ms 298µs 996ns\r\n\r\nStartup Time: 19ms 413µs 423ns\r\n\u001b[32;1m/home/sameer/TLSite/my-doks-site/content/en/docs\u001b[96m〉\u001b[36mcd\u001b[0m \u001b[36m../../..\u001b[87C\u001b[35;1m05/11/2023 03:17:26 PM\r\n\u001b[32m/home/sameer/TLSite/my-doks-site\u001b[96m〉\u001b[36;22mhugo\u001b[0m ; \u001b[36mfirebase\u001b[0m \u001b[32;1mdeploy\u001b[0m \u001b[32;1m--only\u001b[0m \u001b[32;1mhosting\u001b[77C\u001b[35m05/11/2023 03:17:31 PM\r\n\u001b[0mStart building sites … \r\nhugo v0.98.0+extended linux/amd64 BuildDate=unknown\r\n\r\n                   | EN  \r\n-------------------+-----\r\n  Pages            | 77  \r\n  Paginator pages  |  0  \r\n  Non-page files   |  0  \r\n  Static files     | 93  \r\n  Processed images |  9  \r\n  Aliases          |  9  \r\n  Sitemaps         |  1  \r\n  Cleaned          |  0  \r\n\r\nTotal in 2464 ms\r\n\r\n\u001b[37;1m===\u001b[39m Deploying to 'letepstale'...\r\n\r\n\u001b[36mi \u001b[0m deploying \u001b[1mhosting\r\n\u001b[36mi  hosting[letepstale]:\u001b[0m beginning deploy...\r\n\u001b[36;1mi  hosting[letepstale]:\u001b[0m found 307 files in \u001b[1mpublic\r\n\u001b[32m✔  hosting[letepstale]:\u001b[0m file upload complete\r\n\u001b[36;1mi  hosting[letepstale]:\u001b[0m finalizing version...\r\n\u001b[32;1m✔  hosting[letepstale]:\u001b[0m version finalized\r\n\u001b[36;1mi  hosting[letepstale]:\u001b[0m releasing new version...\r\n\u001b[32;1m✔  hosting[letepstale]:\u001b[0m release complete\r\n\r\n\u001b[32;1m✔ \u001b[0m \u001b[1;4mDeploy complete!\r\n\r\n\u001b[24mProject Console:\u001b[0m https://console.firebase.google.com/project/letepstale/overview\r\n\u001b[1mHosting URL:\u001b[0m https://letepstale.web.app\r\n\u001b[32;1m/home/sameer/TLSite/my-doks-site\u001b[96m〉\u001b[114C\u001b[35m05/11/2023 03:18:05 PM\u001b[136D\u001b[0m",
+                        "rows": 24
+                      }
+                    }
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "becc174ee186b18b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff33343eafffad26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb321cf53dd91b44",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fc2e050ad9dd881b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "22eadf3a683cca38",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ad9aacc646750ef6",
+    "type": "split",
+    "children": [
+      {
+        "id": "56b1785ff5284f57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86b5916903326730",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15d7a71a6704a6b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5a4c3324691de3bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6da53ac7a0984975",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "701466c017f143c0",
+  "lastOpenFiles": [
+    "failurealchemist/Chapter 6/Chapter 64.md",
+    "failurealchemist/Chapter 6/Chapter 65.md",
+    "failurealchemist/Chapter 6/Chapter 63.md",
+    "makemeaverage/Chapter 477.md",
+    "makemeaverage/Chapter 473.md",
+    "makemeaverage/Chapter 474.md",
+    "makemeaverage/Chapter 475.md",
+    "makemeaverage/Chapter 476.md",
+    "howtodistance/Volume 2/Chapter 7.1.md",
+    "howtodistance/Volume 2/Chapter 6.3.md",
+    "genocideonline/Chapter 266.md",
+    "genocideonline/Chapter 265.md",
+    "genocideonline/ss1.md",
+    "genocideonline/_index.md",
+    "genocideonline/_index 1.md",
+    "failurealchemist/Chapter 6/Chapter 56.md",
+    "howtodistance/Volume 2/Chapter 6.2.md",
+    "genocideonline",
+    "failurealchemist/Chapter 6/Chapter 62.md",
+    "failurealchemist/Chapter 6/Chapter 60.md",
+    "failurealchemist/Chapter 6/Chapter 61.md",
+    "failurealchemist/Chapter 6/Chapter 57.md",
+    "failurealchemist/Chapter 6/Chapter 59.md",
+    "failurealchemist/Chapter 6/Chapter 58.md",
+    "template/template.md",
+    "template",
+    "Untitled.md",
+    "failurealchemist/Chapter 6/_index.md",
+    "failurealchemist/Chapter 6"
+  ]
+}

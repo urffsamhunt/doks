@@ -1,0 +1,15 @@
+{
+  "snippets_file": "alert : {{< alert context=\"warning\" >}}$nl$ $pst$ $nl${{</ alert >}}\nnote : {{< note text=\"$pst$\" />}}",
+  "snippets": [
+    "alert : {{< alert context=\"warning\" >}}$nl$ $pst$ $nl${{</ alert >}}",
+    "note : {{< note text=\"$pst$\" />}}"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": false,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

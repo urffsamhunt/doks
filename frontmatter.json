@@ -1,0 +1,98 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "lead",
+          "name": "lead",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
+        },
+        {
+          "title": "images",
+          "name": "images",
+          "type": "fields",
+          "fields": []
+        },
+        {
+          "title": "menu",
+          "name": "menu",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "docs",
+              "name": "docs",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "parent",
+                  "name": "parent",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "weight",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "datetime"
+        }
+      ]
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "en",
+      "path": "[[workspace]]/content/en"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "SEO",
+    "performance",
+    "security"
+  ],
+  "frontMatter.taxonomy.categories": [
+    "News"
+  ],
+  "frontMatter.content.snippets": {
+    "Alert": {
+      "description": "",
+      "body": "{{< alert text=\"\" />}}",
+      "fields": []
+    }
+  }
+}

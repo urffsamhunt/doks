@@ -67,5 +67,9 @@
   },
   "otherDependencies": {
     "hugo": "0.107.0"
+  },
+  "dependencies": {
+    "@tinacms/cli": "^1.5.11",
+    "tinacms": "^1.5.4"
   }
 }

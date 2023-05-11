@@ -1,0 +1,7 @@
+<div class="card-list">
+    {{ with .Site.GetPage "/docs/" }}
+      {{ range .Pages }}
+          {{ partial "content/card.html" . }}
+      {{ end }}
+    {{ end }}
+    </div>

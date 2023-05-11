@@ -1,4 +1,48 @@
 <head>
+  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+  <script>
+    window.googletag = window.googletag || { cmd: [] };
+    googletag.cmd.push(function () {
+      googletag.defineSlot('/22920533010/nativefeedcode', ['fluid'], 'div-gpt-ad-1683644924989-0').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7HJ8WE6QN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z7HJ8WE6QN');
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-262951764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-262951764-1');
+  </script>
+
+  {{- if .IsHome -}}
+  <meta name="description" content="{{ site.Params.Description }}" />
+  {{- else -}}
+  <meta name="description" content="{{ .Params.Description }}" />
+  {{- end }}
+  <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/feed.xml" title="{{ .Site.Title }}">
+
+
+  {{ range .AlternativeOutputFormats -}}
+  {{ printf `
+  <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7715668787474312"
+    crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,4 +52,10 @@
   {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
   {{ block "head/favicons" . }}{{ partial "head/favicons.html" . }}{{ end }}
   {{ block "head/custom-head" . }}{{ partial "head/custom-head.html" . }}{{ end }}
+  <script async src="https://fundingchoicesmessages.google.com/i/pub-7715668787474312?ers=1"
+    nonce="NfapxlMgZhmYf8wXPgVlOQ"></script>
+  <script
+    nonce="NfapxlMgZhmYf8wXPgVlOQ">(function () { function signalGooglefcPresent() { if (!window.frames['googlefcPresent']) { if (document.body) { const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe); } else { setTimeout(signalGooglefcPresent, 0); } } } signalGooglefcPresent(); })();</script>
+
+    {{ partial "head/anti.html" .}}
 </head>
